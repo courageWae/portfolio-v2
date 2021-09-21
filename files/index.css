@@ -1,0 +1,189 @@
+body
+{
+    font-family: 'Courier New', monospace;
+}
+.alignCenter
+{
+    text-align : center ;
+}
+
+.shadow
+{
+    position : relative;
+    box-shadow : 10px 20px 10px rgba(0,0,0,0.19);
+}
+
+#fadeIn1
+{
+    animation-name : slideIn;
+    animation-duration : 2s;
+}
+
+#fadeIn2
+{
+    animation-name : slideIn;
+    animation-duration : 3s;
+}
+
+#fadeIn3
+{
+    animation-name : slideIn;
+    animation-duration : 4s;
+}
+
+#fadeIn4
+{
+    animation-name : slideIn;
+    animation-duration : 5s;
+}
+
+@keyframes slideIn
+{
+    0% 
+    {
+        top : 100px;
+    }
+    100%
+    {
+        top : 0px;
+    }
+}
+
+.icon 
+{
+    color : green;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.about
+{
+    margin-top : 50px;
+}
+.experience 
+{
+    margin-top : 30px;
+    display : grid ;
+    grid-row-gap : 100px;
+}
+
+.experienceTitle
+{
+    display : grid ;
+    grid-template-columns : 30% 30% 30%;
+    grid-column-gap : 20px;
+    border-bottom-style : solid;
+    border-bottom-width : 2px;
+}
+
+.firstDiv
+{
+    background-color:  black;
+    width : 100%;
+    padding : 10px;
+    color : white;
+    text-align : center;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+main
+{
+    width : 60%;
+    margin : auto;
+    padding : 10px;
+    
+}
+
+#detailDiv
+{
+    width : 40%;
+    margin : auto;
+
+}
+
+#imgDiv
+{
+    width : 70%;
+    margin : auto;
+    padding : 10px;
+    border-style : solid;
+    border-width : 1px;
+}
+p
+{
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+img
+{
+    width : 100%;
+    height : auto;
+    margin-bottom : 10px;
+}
+
+.socialMedia
+{
+    width : 100%;
+    display : grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+nav
+{
+    width : 100%;
+    margin-top : 20px;
+    display : grid;
+    grid-template-columns: 20% 20% 20% 20% 20% ;
+
+}
+
+nav div
+{
+    padding : 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size : 15px;
+    border-bottom-style : solid;
+    border-width : 3px;
+    background-color:rgb(233, 229, 229);
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color : black;
+}
+
+nav div:hover
+{
+    border-bottom-style : solid;
+    border-width : 3px;
+    background-color :rgb(233, 229, 229);
+    border-bottom-color : black;
+    text-decoration: none;
+    color : black;
+    transform : scale(1.5);
+}
+
+.sites:hover
+{
+   text-decoration: none; 
+   color : blue;
+}
+
+.dates
+{
+    border-left : 3px;
+    border-left-style : solid;
+    border-left-color : black;
+    background-color: rgb(233, 229, 229);
+    font-style: italic;
+    padding : 10px;
+}
+
+
