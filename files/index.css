@@ -117,6 +117,11 @@ p
     font-weight: 500;
 }
 
+h3
+{
+    font-weight: bold;
+}
+
 img
 {
     width : 100%;
@@ -156,7 +161,13 @@ a
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
-    color : black;
+    color :black;
+}
+
+i:hover
+{
+    color:red;
+
 }
 
 nav div:hover
@@ -180,10 +191,50 @@ nav div:hover
 {
     border-left : 3px;
     border-left-style : solid;
-    border-left-color : black;
+    border-left-color : red;
     background-color: rgb(233, 229, 229);
     font-style: italic;
     padding : 10px;
 }
 
+#projects
+{
+    display :  grid;
+    grid-template-columns : 32% 32% 32%;
+    grid-column-gap : 2%;
+    grid-row-gap : 50px;
+}
+
+.projectDescription
+{
+    padding : 10px;
+}
+
+#fadeLeft1
+{
+    animation-name : fadeLeft;
+    animation-duration : 1s;
+}
+
+#fadeLeft2
+{
+    animation-name : fadeLeft;
+    animation-duration : 2s;
+}
+
+#fadeLeft3
+{
+    animation-name : fadeLeft;
+    animation-duration : 3s;
+}
+
+@keyframes fadeLeft
+{
+    0%{
+        left : 100px;
+    }
+    100%{
+        left : 0px;
+    }
+}
 
