@@ -1,7 +1,6 @@
 body
 {
-    font-family: 'Courier New', monospace;
-    
+    font-family: 'Courier New', monospace; 
 }
 .alignCenter
 {
@@ -54,9 +53,7 @@ body
 
 .experience 
 {
-    margin-top : 30px;
-    display : grid ;
-    grid-row-gap : 100px;
+    margin-top : 50px;
 }
 
 .experienceTitle
@@ -92,14 +89,8 @@ main
     
 }
 
-@media(max-width : 400px){
-    body{
-      font-size : 15px;
-      background-color : green;
-    }
-  }
 
-#detailDiv
+.detailDiv
 {
     width : 40%;
     margin : auto;
@@ -189,13 +180,6 @@ button:hover
     grid-gap : 5%;
 }
 
-textarea
-{
-    width : 97%;
-    height : 100px;
-    padding : 5px;
-    font-size : 15px;
-}
 
 .socialMedia
 {
@@ -274,7 +258,7 @@ nav div:hover, .active
     padding : 10px;
 }
 
-#projects
+.projects
 {
     display :  grid;
     grid-template-columns : 50% 50% ;
@@ -290,7 +274,7 @@ nav div:hover, .active
 #fadeLeft1
 {
     animation-name : fadeLeft;
-    animation-duration : 4s;
+    animation-duration : 1s;
 }
 
 #fadeLeft2
@@ -308,7 +292,7 @@ nav div:hover, .active
 #skill_1
 {
     animation-name : fadeLeft;
-    animation-duration : 1s;
+    animation-duration : 4s;
 }
 
 #skill_2
@@ -394,6 +378,91 @@ nav div:hover, .active
     border-left-width : 4px;
     border-left-color : green;
 }
+
+
+
+@media only screen and (max-width : 400px){
+    body{
+      font-size : 15px;
+      text-align: justify;
+    }
+
+    .firstDiv
+    {
+        width : 100%;
+        top :0px;
+        position: absolute;
+        padding : 10px;
+        color : black;
+        text-align : center;
+        text-transform: capitalize;
+        font-size: 18px;
+        font-weight: bolder; 
+    }
+
+    .detailDiv
+    {
+        width : 100%;
+    }
+    p{
+      padding : 10px;
+    }
+
+    a{
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: bold;
+        color :black;
+    }
+    strong{
+        font-size : 13px;
+    }
+    .icon{
+        color : green;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    .tech{
+        background-color : black;
+        font-weight: bold;
+        padding : 10px;
+        font-size: 10px;
+        color : white;
+    }
+
+    .phoneImage{
+        width : 40px;
+        height : 40px;
+    }
+
+    .projects{
+        display :  grid;
+        grid-template-columns : 100% ;
+        grid-column-gap : 10px;
+    }
+
+    nav div{
+        padding : 5px;
+        text-align: center;
+        font-weight: bold;
+        font-size : 10px;
+        border-bottom-style : solid;
+        border-width : 3px;
+        background-color:rgb(233, 229, 229);
+    }
+
+    nav div:hover{
+        border-bottom-style : solid;
+        border-width : 3px;
+        background-color :rgb(233, 229, 229);
+        border-bottom-color : black;
+        text-decoration: none;
+        color : black;
+    }
+ 
+}
+
 
 
 
