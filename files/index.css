@@ -381,9 +381,9 @@ nav div:hover, .active
 
 
 
-@media only screen and (max-width : 400px){
+@media (max-width : 400px){
     body{
-      font-size : 15px;
+      font-size : 10px;
       text-align: justify;
     }
 
@@ -410,12 +410,12 @@ nav div:hover, .active
 
     a{
         text-decoration: none;
-        font-size: 13px;
+        font-size: 10px;
         font-weight: bold;
         color :black;
     }
     strong{
-        font-size : 13px;
+        font-size : 10px;
     }
     .icon{
         color : green;
