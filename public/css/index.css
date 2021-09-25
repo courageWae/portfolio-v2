@@ -216,6 +216,15 @@ a
     color :black;
 }
 
+p a{
+    text-decoration: underline;
+    font-size: 15px;;
+}
+
+p a:hover{
+    color : blue;
+}
+
 span
 {
     color : brown;
@@ -363,6 +372,22 @@ nav div:hover, .active
     }
 }
 
+@keyframes animation_1 
+{
+    0%
+    {
+        height : 20px;
+    }
+    50%{
+        height : 8px;
+    }
+    100%
+    {
+        height : 20px;
+    }  
+}
+
+
 
 .techlist div
 {
@@ -378,6 +403,34 @@ nav div:hover, .active
     border-left-width : 4px;
     border-left-color : green;
 }
+
+.animation
+{
+    display : grid ;
+    grid-template-columns: 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2%;
+}
+
+#animation_1
+{
+    background : linear-gradient(35deg, black, white);
+    animation-name : animation_1;
+    animation-duration : 2s;
+    position : relative ;
+    animation-iteration-count : infinite;
+    border-radius: 2px;
+    width : 5px;
+    height :20px;
+}
+
+#animation_2
+{
+    background-color: black;
+    position : relative;
+    border-radius: 2px;
+    width : 5px;
+    height :20px;
+}
+
 
 
 
