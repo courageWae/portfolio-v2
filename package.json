@@ -1,4 +1,10 @@
 {
+  "name": "portfolio",
+  "description": "a really cool app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.4.2"
+  },
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1"
