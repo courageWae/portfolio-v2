@@ -7,7 +7,7 @@ app.set('view engine', 'ejs'); // setting the templating engine
 
 app.use(express.static('public')); // creating and public file for all images and css files
 
-app.listen(5000); // server listening port.
+app.listen(process.env.PORT || 3000);// server listening port.
 
 
 // routes
