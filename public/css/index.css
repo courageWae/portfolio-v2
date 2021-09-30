@@ -249,7 +249,6 @@ nav div:hover, .active
 {
     border-bottom-style : solid;
     border-width : 3px;
-    background-color :rgb(233, 229, 229);
     border-bottom-color : black;
     text-decoration: none;
     color : black;
