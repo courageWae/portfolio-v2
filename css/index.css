@@ -194,7 +194,6 @@ button:hover
     width : 100%;
     display : grid;
     --tw-text-opacity: 1;
-    background-color: rgb(79, 78, 77);
     grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
@@ -247,9 +246,12 @@ span
 
 i:hover
 {
-    color:red;
+    color:wheat;
     font-size:large;
-
+}
+i
+{
+    color : antiquewhite;
 }
 
 nav div:hover, .active
@@ -266,11 +268,11 @@ nav div:hover, .active
 {
     border-left : 3px;
     border-left-style : solid;
-    border-left-color : red;
-    background-color: rgb(233, 229, 229);
+    
+    background-color: wheat;
     font-style: italic;
     font-weight: bold;
-    font-size: small;
+    font-size: 15px;
     padding : 10px;
 }
 
@@ -278,7 +280,7 @@ nav div:hover, .active
 {
     display :  grid;
     grid-template-columns : 50% 50% ;
-    grid-column-gap : 10px;
+    grid-column-gap : 40px;
 }
 
 .projectDescription
