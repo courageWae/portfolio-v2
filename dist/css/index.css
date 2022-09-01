@@ -269,8 +269,8 @@ nav div:hover, .active
     border-left : 3px;
     border-left-style : solid;
     border-left-color : brown;
-    
     background-color: slategray;
+    color: black;
     font-weight: bold;
     font-size: 15px;
     padding : 10px;
