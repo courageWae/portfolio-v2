@@ -28,19 +28,19 @@ body
 #fadeIn2
 {
     animation-name : slideIn;
-    animation-duration : 3s;
+    animation-duration : 4s;
 }
 
 #fadeIn3
 {
     animation-name : slideIn;
-    animation-duration : 4s;
+    animation-duration : 6s;
 }
 
 #fadeIn4
 {
     animation-name : slideIn;
-    animation-duration : 5s;
+    animation-duration : 8s;
 }
 
 
