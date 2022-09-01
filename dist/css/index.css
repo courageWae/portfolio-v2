@@ -238,11 +238,11 @@ em a{
     color : wheat;
 }
 
-span
+/* span
 {
     color : brown;
     font-style: normal;
-}
+} */
 
 i:hover
 {
@@ -268,9 +268,9 @@ nav div:hover, .active
 {
     border-left : 3px;
     border-left-style : solid;
+    border-left-color : brown;
     
     background-color: slategray;
-    font-style: italic;
     font-weight: bold;
     font-size: 15px;
     padding : 10px;
