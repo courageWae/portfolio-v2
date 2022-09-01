@@ -174,7 +174,7 @@ button:hover
 
 .tech
 {
-    background-color : black;
+    background-color : rgb(77, 76, 76);
     font-weight: bold;
     padding : 20px;
     color : white;
@@ -486,7 +486,7 @@ nav div:hover, .active
     }
 
     .tech{
-        background-color : black;
+        background-color : slategray;
         font-weight: bold;
         padding : 10px;
         font-size: 10px;
