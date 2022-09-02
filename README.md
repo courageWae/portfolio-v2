@@ -4,6 +4,6 @@ Portfolio-V2 is my personal website portfolio built with HTML and CSS.
 
 
 ### CONCLUSION
-You can visit my hosted portfolio at https://courageahortto.com
+You can visit my hosted portfolio at https://courageahorttor.com
 
 Have fun.
