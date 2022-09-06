@@ -3,7 +3,7 @@ body
     --tw-bg-opacity: 1;
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
-    font-family:  'Monolisa','Roboto Mono', 'monospace';
+    font-family: Verdana, sans-serif;
     background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 
 }
