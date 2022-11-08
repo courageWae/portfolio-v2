@@ -1,73 +1,502 @@
 <!DOCTYPE html>
-<html>
-    <title>Courage W. Ahorttor</title>
-    <head>
-        <link rel="stylesheet" href= "./css/index.css">
-        <link rel= "stylesheet" href="./fontawesome-free/css/all.css">
-    </head>
-    <body>   
-            <main>
-                <!-- Detail Div-->
-                <section class="detailDiv" >
-                    <div id="imgDiv">
-                        <img src="./images/courage_1.jpg" alt="Photo of courage">
-                        <div class= "alignCenter"><strong>SOFTWARE ENGINEER</strong></div>
-                        <hr>
-                        <div class = "socialMedia">
-                            <div>
-                                <a href="javascript:void(0)" alt="not available"><i class="fab fa-twitter"></i></a>
-                            </div>
-                            <div>
-                                <a href="javascript:void(0)"><i class="fab fa-facebook"></i></a>
-                            </div>
-                            <div>
-                                <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a>
-                            </div>
-                            <div>
-                                <a href="https://github.com/courageWae" target="_blank"><i class="fab fa-github"></i></a>
-                            </div>
-                            <div>
-                                <a href="https://www.linkedin.com/in/courage-ahorttor-91408a18a/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                            </div>
-                        </div> 
-                    </div>
-                </section>
-                <!-- End of Detail Div-->
-                <nav>
-                    <a href="index.html">
-                        <div  class="active">About</div>
-                    </a>
-                    <a href="experience.html">
-                        <div >Experience</div>
-                    </a>
-                    <a href="projects.html">
-                        <div>Projects</div>
-                    </a>
-                    <a href="skills.html">
-                        <div>Skills</div>
-                    </a>
-                </nav>
-                <section class="about">
-                    <h2 class="alignCenter">ABOUT ME 😎</h2>
-                    <hr>
-                    <p>
-                        <strong style="color:antiquewhite; font-size:large">Courage Waelinam Ahorttor</strong> 
-                        is an experienced software engineer with a demonstrated history of working in the computer software industry. 
-                        He has proven to be very efficient in both frontend and backend aspect of software development with extensive Knowledge on Linux Operating system (UBUNTU).
-                        He is Motivated by a passion for problem solving and software development. 
-                        He enjoys contributing in high performing teams and building effective solutions to real-world problems.
-                    </p>
-                    <p>
-                        He has worked with multiple companies ranging from health, e-commerce to Telecomunication and he is currently working as a Lead backend software developer at 
-                        <a href="https://txtghana.com/" target="_blank">TXT-GHANA LIMITED</a>, where he is actively involved in consuming Telecommunication Networks (ORANGE, MTN, TELENITY, VODAFONE) 
-                        APIs for the purpose of Header Enrichment and Subscriber Carrier Billing (SCB).
-                    </p> 
-                    <p>
-                        <!-- With the emergence of blockchain technology, He is passionately learning how to build blockchain applications with <a href="https://docs.soliditylang.org/en/v0.8.16/" target="_blank">SOLIDITY</a> -->
-                        Building backend application with NodeJs, MongoDB, and Typescript is my current focus.
-                    </p>  
-                    <hr>        
-                </section>
-            </main>
-    </body>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Courage Waelinam Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="#about">Courage W. Ahorttor</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://twitter.com/courageWAE" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <!-- <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> -->
+          <a href="https://github.com/courageWae" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://join.skype.com/invite/IhS9hS37JJxY" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="https://www.linkedin.com/in/courage-ahorttor-91408a18a/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <!-- <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li> -->
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Skills</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li> 
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About Me </h2>
+          <p><b>Courage Waelinam Ahorttor</b> is an experienced software engineer with a demonstrated history of working in the computer software industry. 
+            He has proven to be very efficient in both frontend and backend aspect of software development with extensive Knowledge on Linux Operating system (UBUNTU).
+            He is Motivated by a passion for problem solving and software development. 
+            He enjoys contributing in high performing teams and building effective solutions to real-world problems.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Software Developer &amp; Linux System Administrator</h3>
+            <p class="fst-italic">
+              Courage W. Ahorttor is currently working as a Lead Software Engineer with <a href="https://www.txtghana.com" >TxtGhana Ltd </a>and as a Linux System Administrator with <a href="javascript:void(0);">Nevermind Ltd</a>
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.courageahorttor.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Country & City:</strong> <span>Accra, Ghana</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Education:</strong>KNUST</li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email Address</strong> <span>couragea57@gmail.com</span></li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              Currently, courage is actively learning how to build web application with Java and Spring Boot framework. 
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+                <span class="skill">PHP <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+                <span class="skill">JAVA<i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+
+            <div class="progress">
+                <span class="skill">Node Js<i class="val">65%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+
+            <div class="progress">
+                <span class="skill">MySQL<i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+
+            <div class="progress">
+                <span class="skill">REDIS<i class="val">60%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+
+            <div class="progress">
+                <span class="skill">LINUX (UBUNTU)<i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="progress">
+                <span class="skill">CSS <i class="val">70%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Laravel <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Typescript<i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+                <span class="skill">Angular<i class="val">60%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+
+            <div class="progress">
+                <span class="skill">PostgreSQL<i class="val">60%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+
+            <div class="progress">
+                <span class="skill">MongoDB<i class="val">70%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+
+            <div class="progress">
+                <span class="skill">DOCKER<i class="val">60%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+
+            <div class="progress">
+                <span class="skill">GIT<i class="val">70%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Courage W. Ahorttor</h4>
+              <p><em>As an Experienced, Analytical, and detailed-oriented individual, I am looking to obtain a challenging position as a software engineer in an innovative and dynamic establishment, with the purpose of utilizing my skills to the achievement of organizational goals and self enhancement.</em></p>
+              <ul>
+                <li>Accra, Ghana</li>
+                <li>couragea57@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelors of Science</h4>
+              <h5>2022 - 2024</h5>
+              <p><em>KWAME NKRUMAH UNIVERSITY of TECHNOLOGY</em></p>
+            </div>
+            <div class="resume-item">
+              <h4>HND. COMPUTER SCIENCE</h4>
+              <h5>2013 - 2017</h5>
+              <p><em>ACCRA TECHNICAL UNIVERSITY</em></p>
+            </div>
+            <div class="resume-item">
+                <h4>Advance Diploma in System Engineering</h4>
+                <h5>2019 - 2021</h5>
+                <p><em>IPMC COLLEGE OF TECHNOLOGY.</em></p>
+              </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>LEAD SOFTWARE ENGINEER, </h4>
+              <h5>April 2022 - Present</h5>
+              <p><em>TXT-GHANA LIMITED, Greater Accra, Ghana</em></p>
+              <ul>
+                <li>Strategize organizational direction on emerging technology platforms and communicate the effectiveness to stakeholders.</li>
+                <li>Effectively involved in implementing external Telecommunication (Orange, Vodafone, MTN) APIs for header Enrichment purposes and subscriber carrier billing (SCB).</li>
+                <li>Developing Unstructured Supplementary Service Data (USSD) and SMS gateways for client and in-house purposes</li>
+                <li>Write comprehensive unit tests for existing and new features of a project written in PHP 8.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>SOFTWARE ENGINEER</h4>
+              <h5>January 2021 - March 2022</h5>
+              <p><em>TOLDO LIMITED, Greater Accra, Ghana</em></p>
+              <ul>
+                <li>Built innovative microservice with third party API integration payment integration such as SMS API and fintech API. This helped to facilitate smooth payment transactions</li>
+                <li>Actively involved in maintaining and refactored existing codebase written in PHP 7, Laravel and MySQL.</li>
+                <li>Actively involved in improving buggy application functionality and introduced better ways of writing clean codes and testing of codes.</li>
+                <li>Actively trying to introduce the use of other technologies such as Docker in the software development process to reduce operating system related bugs.</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+                <h4>WEB DEVELOPER</h4>
+                <h5>March 2019 - December 2020</h5>
+                <p><em>I-TECHNOLOGIES LIMITED, Greater Accra, Ghana</em></p>
+                <ul>
+                  <li>Spearheaded the transition of already existing web applications in CMS tools such as WordPress, to PHP, Laravel, JavaScript and Vue.</li>
+                  <li>Single handedly built an employee attendance standalone application in the java programming language to enable easy monitoring of employees.</li>
+                  <li>Helped in the creation of Application programming Interfaces (API) for the easy integration of products into third party applications.</li>
+                  <li>Helped in the setting up networking infrastructure, by laying ethernet cables and maintaining it using Microsoft windows server 2016 and Red-hat Linux operating system</li>
+                </ul>
+              </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Java_logo.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Java_logo.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="notepad-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/nubiaemr.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/nubiaemr.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="nubiaemr-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/scribe.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/scribe.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="scribe-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/career.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/career.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="career-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/agric.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/agric.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="agric-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/lexi.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/lexi.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="lexi-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/screener.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/screener.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="screener-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div> -->
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-12 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        Developed by <strong><span>Me</span></strong>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#about" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
